@@ -1,0 +1,144 @@
+@include media-md {
+
+    // Landing 
+    .landing {
+
+        .landing-showcase {
+            flex-direction: row;
+            align-items: center;
+            margin-top: 20px;
+            height: 500px;
+
+            .landing-info {
+                margin-top: 0;
+            }
+        }
+
+        .landing-image {
+            margin: 0;
+
+        }
+
+        .app-information {
+            background-color: $white-color;
+        }
+    }
+
+
+    // Login
+    .login-container {
+        height: 100vh;
+
+        .login-showcase {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+
+    }
+
+    // Sidebar
+    aside {
+        min-width: 230px;
+
+
+
+        .text {
+            display: inline;
+        }
+    }
+
+    // Dashboard 
+    .dashboard {
+        width: 100vw;
+        height: 100vh;
+
+        .user-showcase {
+            // height: 60%;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 400px;
+            align-items: center;
+            padding: 2rem;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .user-img-showcase {
+                height: 100%;
+            }
+
+            .dashboard-user-info {
+                min-width: 300px;
+                line-height: 2;
+
+            }
+
+
+        }
+    }
+
+    // Courses 
+    .course-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        div {
+            width: 170px;
+        }
+    }
+
+    // Single Course 
+    .single-course {
+        width: 600px;
+
+        .single-course-img {
+            flex-direction: row;
+            height: 200px;
+
+
+            p {
+                text-transform: uppercase;
+                font-weight: $bold-font-weight;
+            }
+
+            svg {
+                width: 60%;
+            }
+        }
+    }
+
+    // Profile 
+    .profile {
+        .user-information {
+            display: flex;
+            gap: 1.5rem;
+
+            .info {
+                min-width: 170px;
+                text-align: center;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    // Error 
+    .error {
+        flex-direction: row;
+        gap: 2rem;
+
+        .error-icon {
+            height: 390px;
+        }
+
+        .error-info {
+            text-align: left;
+        }
+    }
+}
