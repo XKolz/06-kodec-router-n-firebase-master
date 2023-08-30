@@ -102,7 +102,7 @@ const Login = ({ error, runError }) => {
         <div className='login-showcase-info'>
           <div className='logo'>
             <img src={require('../img/undraw_handcrafts_mention.png')} alt='' />
-            <span>TERRIS</span>
+            <span>ENLIGHTENX</span>
           </div>
           <div className='login-form'>
             <form onSubmit={(e) => loginWithEP(e)}>

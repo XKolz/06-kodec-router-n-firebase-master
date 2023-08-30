@@ -24,7 +24,7 @@ const Sidebar = () => {
   };
   return (
     <aside>
-      <h4>TERRIS</h4>
+      <h4>ENLIGHTENX</h4>
       <ul>
         <li>
           <Link to={'/dashboard'}>

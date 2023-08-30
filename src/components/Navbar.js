@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav>
       <div className='logo'>
         <img src={require('../img/undraw_handcrafts_mention.png')} alt='' />
-        <h1>Terris</h1>
+        <h1>EnlightenX</h1>
       </div>
       <Link to={'/login'}>
         <button>Login</button>
